@@ -20,9 +20,10 @@ class BasicsController: UIViewController {
         typeAnnotation(str: "asd")
         optionalsTest();
         errorHandle();
+        
         // Do any additional setup after loading the view.
     }
-    
+
     /// 常量和变量
     func letWithVar() {
         //定义常量使用let关键字,常量只能被赋值一次
@@ -99,6 +100,7 @@ class BasicsController: UIViewController {
     func returnTuples() -> (Int16,String,Int8) {
         
         let httpStatus = (status:Int16(404),alert:"找不到网页",page:Int8(12));
+        
         return httpStatus;
         
     }

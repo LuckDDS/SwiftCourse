@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45BE376E24B2D2E200D01B7C /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE376D24B2D2E200D01B7C /* OperationViewController.swift */; };
+		45BE377024B301A100D01B7C /* StringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE376F24B301A100D01B7C /* StringViewController.swift */; };
 		45FBD77D24AAD03400263F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBD77C24AAD03400263F21 /* AppDelegate.swift */; };
 		45FBD77F24AAD03400263F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBD77E24AAD03400263F21 /* SceneDelegate.swift */; };
 		45FBD78124AAD03400263F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBD78024AAD03400263F21 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45BE376D24B2D2E200D01B7C /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		45BE376F24B301A100D01B7C /* StringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringViewController.swift; sourceTree = "<group>"; };
 		45FBD77924AAD03400263F21 /* SwiftCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FBD77C24AAD03400263F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FBD77E24AAD03400263F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				45FBD77C24AAD03400263F21 /* AppDelegate.swift */,
 				45FBD77E24AAD03400263F21 /* SceneDelegate.swift */,
 				45FBD78024AAD03400263F21 /* ViewController.swift */,
+				45BE376D24B2D2E200D01B7C /* OperationViewController.swift */,
+				45BE376F24B301A100D01B7C /* StringViewController.swift */,
 				45FBD78224AAD03400263F21 /* Main.storyboard */,
 				45FBD78524AAD03800263F21 /* Assets.xcassets */,
 				45FBD78724AAD03800263F21 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BE376E24B2D2E200D01B7C /* OperationViewController.swift in Sources */,
 				45FBD78124AAD03400263F21 /* ViewController.swift in Sources */,
 				45FBD77D24AAD03400263F21 /* AppDelegate.swift in Sources */,
+				45BE377024B301A100D01B7C /* StringViewController.swift in Sources */,
 				45FBD77F24AAD03400263F21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,15 +292,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W7MHLKJH3J;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UWL872P7WZ;
 				INFOPLIST_FILE = SwiftCourse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.SwiftCourse";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceteng.3EClassRoomT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 3EClassRoom_TT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +312,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W7MHLKJH3J;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UWL872P7WZ;
 				INFOPLIST_FILE = SwiftCourse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.SwiftCourse";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceteng.3EClassRoomT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 3EClassRoom_TT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
