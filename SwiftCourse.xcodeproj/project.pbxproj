@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4500150924BC0D00009E9041 /* MianTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4500150824BC0D00009E9041 /* MianTestViewController.swift */; };
+		455AAA3624B5993300842D94 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AAA3524B5993300842D94 /* SetViewController.swift */; };
+		455AAA3824B5B3F400842D94 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AAA3724B5B3F400842D94 /* DictionaryViewController.swift */; };
+		455AAA3A24B5C5C300842D94 /* CommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455AAA3924B5C5C300842D94 /* CommandViewController.swift */; };
+		455EE4F024B6BBF900C00CFE /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455EE4EF24B6BBF900C00CFE /* FuncViewController.swift */; };
 		45BE376E24B2D2E200D01B7C /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE376D24B2D2E200D01B7C /* OperationViewController.swift */; };
 		45BE377024B301A100D01B7C /* StringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE376F24B301A100D01B7C /* StringViewController.swift */; };
+		45BE8C4024B47AC600856FAC /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE8C3F24B47AC600856FAC /* ArrayViewController.swift */; };
+		45E09BAC24B9A4B0009EADA5 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E09BAB24B9A4B0009EADA5 /* BlockViewController.swift */; };
 		45FBD77D24AAD03400263F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBD77C24AAD03400263F21 /* AppDelegate.swift */; };
 		45FBD77F24AAD03400263F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBD77E24AAD03400263F21 /* SceneDelegate.swift */; };
 		45FBD78124AAD03400263F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBD78024AAD03400263F21 /* ViewController.swift */; };
@@ -18,8 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4500150824BC0D00009E9041 /* MianTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianTestViewController.swift; sourceTree = "<group>"; };
+		455AAA3524B5993300842D94 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		455AAA3724B5B3F400842D94 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		455AAA3924B5C5C300842D94 /* CommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewController.swift; sourceTree = "<group>"; };
+		455EE4EF24B6BBF900C00CFE /* FuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
 		45BE376D24B2D2E200D01B7C /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
 		45BE376F24B301A100D01B7C /* StringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringViewController.swift; sourceTree = "<group>"; };
+		45BE8C3F24B47AC600856FAC /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		45E09BAB24B9A4B0009EADA5 /* BlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
 		45FBD77924AAD03400263F21 /* SwiftCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FBD77C24AAD03400263F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FBD77E24AAD03400263F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,9 +76,16 @@
 			children = (
 				45FBD77C24AAD03400263F21 /* AppDelegate.swift */,
 				45FBD77E24AAD03400263F21 /* SceneDelegate.swift */,
+				4500150824BC0D00009E9041 /* MianTestViewController.swift */,
 				45FBD78024AAD03400263F21 /* ViewController.swift */,
 				45BE376D24B2D2E200D01B7C /* OperationViewController.swift */,
 				45BE376F24B301A100D01B7C /* StringViewController.swift */,
+				45BE8C3F24B47AC600856FAC /* ArrayViewController.swift */,
+				455AAA3524B5993300842D94 /* SetViewController.swift */,
+				455AAA3724B5B3F400842D94 /* DictionaryViewController.swift */,
+				455AAA3924B5C5C300842D94 /* CommandViewController.swift */,
+				455EE4EF24B6BBF900C00CFE /* FuncViewController.swift */,
+				45E09BAB24B9A4B0009EADA5 /* BlockViewController.swift */,
 				45FBD78224AAD03400263F21 /* Main.storyboard */,
 				45FBD78524AAD03800263F21 /* Assets.xcassets */,
 				45FBD78724AAD03800263F21 /* LaunchScreen.storyboard */,
@@ -146,8 +167,15 @@
 			files = (
 				45BE376E24B2D2E200D01B7C /* OperationViewController.swift in Sources */,
 				45FBD78124AAD03400263F21 /* ViewController.swift in Sources */,
+				45BE8C4024B47AC600856FAC /* ArrayViewController.swift in Sources */,
 				45FBD77D24AAD03400263F21 /* AppDelegate.swift in Sources */,
+				45E09BAC24B9A4B0009EADA5 /* BlockViewController.swift in Sources */,
+				455EE4F024B6BBF900C00CFE /* FuncViewController.swift in Sources */,
+				455AAA3624B5993300842D94 /* SetViewController.swift in Sources */,
+				4500150924BC0D00009E9041 /* MianTestViewController.swift in Sources */,
 				45BE377024B301A100D01B7C /* StringViewController.swift in Sources */,
+				455AAA3824B5B3F400842D94 /* DictionaryViewController.swift in Sources */,
+				455AAA3A24B5C5C300842D94 /* CommandViewController.swift in Sources */,
 				45FBD77F24AAD03400263F21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

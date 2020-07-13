@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let windowScene = UIWindowScene.init(session: session, connectionOptions: connectionOptions);
         window = UIWindow.init(windowScene: windowScene);
-        let navigative = UINavigationController.init(rootViewController: StringViewController.init());
+        let navigative = UINavigationController.init(rootViewController: MianTestViewController.init());
         window?.rootViewController = navigative;
         window?.makeKeyAndVisible();
         
